@@ -34,7 +34,7 @@ const Cat = () => {
     const [count, setCount] = useState(0);
     const onPress = () => setCount(count => count + 1);
     
-   
+   // refresh control
     const [Refreshing,SetRefreshing] = useState(false);
     const onRefresh = () =>{
       SetRefreshing(true);
